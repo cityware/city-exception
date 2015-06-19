@@ -10,9 +10,6 @@
     "autoload": {
         "psr-4": {
             "Cityware\\Exception\\": "src/"
-        },
-        "psr-0": {
-            "Cityware\\Exception\\": "src/"
         }
     },
     "require": {
