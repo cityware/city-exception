@@ -7,12 +7,14 @@
  */
 namespace Cityware\Exception;
 
+
+use OutOfBoundsException;
 /**
  * Description of OutOfBoundsException
  *
  * @author fabricio.xavier
  */
-class OutOfBoundsException extends \OutOfBoundsException implements ExceptionInterface
+class OutOfBoundsException extends OutOfBoundsException implements ExceptionInterface
 {
 }
 

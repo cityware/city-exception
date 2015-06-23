@@ -7,12 +7,13 @@
  */
 namespace Cityware\Exception;
 
+use OverflowException;
 /**
  * Description of OverflowException
  *
  * @author fabricio.xavier
  */
-class OverflowException extends \OverflowException implements ExceptionInterface
+class OverflowException extends OverflowException implements ExceptionInterface
 {
 }
 

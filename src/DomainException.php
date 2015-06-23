@@ -7,11 +7,13 @@
  */
 namespace Cityware\Exception;
 
+use DomainException;
+
 /**
  * Description of DomainException
  *
  * @author fabricio.xavier
  */
-class DomainException extends \DomainException implements ExceptionInterface
+class DomainException extends DomainException implements ExceptionInterface
 {
 }
