@@ -7,14 +7,12 @@
  */
 namespace Cityware\Exception;
 
-
-use OutOfRangeException;
 /**
  * Description of OutOfRangeException
  *
  * @author fabricio.xavier
  */
-class OutOfRangeException extends OutOfRangeException implements ExceptionInterface
+class OutOfRangeException extends \OutOfRangeException implements ExceptionInterface
 {
 }
 

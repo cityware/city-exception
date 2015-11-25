@@ -7,13 +7,11 @@
  */
 namespace Cityware\Exception;
 
-use BadFunctionCallException;
-
 /**
  * Description of BadFunctionCallException
  *
  * @author fabricio.xavier
  */
-class BadFunctionCallException extends BadFunctionCallException implements ExceptionInterface
+class BadFunctionCallException extends \BadFunctionCallException implements ExceptionInterface
 {
 }

@@ -7,13 +7,11 @@
  */
 namespace Cityware\Exception;
 
-
-use UnderflowException;
 /**
  * Description of UnderflowException
  *
  * @author fabricio.xavier
  */
-class UnderflowException extends UnderflowException implements ExceptionInterface
+class UnderflowException extends \UnderflowException implements ExceptionInterface
 {
 }

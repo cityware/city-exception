@@ -7,13 +7,11 @@
  */
 namespace Cityware\Exception;
 
-
-use LengthException;
 /**
  * Description of LengthException
  *
  * @author fabricio.xavier
  */
-class LengthException extends LengthException implements ExceptionInterface
+class LengthException extends \LengthException implements ExceptionInterface
 {
 }

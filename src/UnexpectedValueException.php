@@ -2,7 +2,6 @@
 
 namespace Cityware\Exception;
 
-use UnexpectedValueException;
 /**
  * Unexpected value exception
  *
@@ -11,6 +10,6 @@ use UnexpectedValueException;
  * return value to be of a certian type or value, not including arithmetic or
  * buffer related errors.
  */
-class UnexpectedValueException extends UnexpectedValueException implements ExceptionInterface
+class UnexpectedValueException extends \UnexpectedValueException implements ExceptionInterface
 {
 }

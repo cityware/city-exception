@@ -7,13 +7,11 @@
  */
 namespace Cityware\Exception;
 
-
-use RangeException;
 /**
  * Description of RangeException
  *
  * @author fabricio.xavier
  */
-class RangeException extends RangeException implements ExceptionInterface
+class RangeException extends \RangeException implements ExceptionInterface
 {
 }
